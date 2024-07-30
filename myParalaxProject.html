@@ -78,9 +78,63 @@
         width: 100%;
         height: 100vh;
       }
+      .place-6 {
+        background-image: url(https://www.holidify.com/images/bgImages/MUSSOORIE.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+      .place-7 {
+        background-image: url(https://www.holidify.com/images/bgImages/PAHALGAM.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+      .place-8 {
+        background-image: url(https://www.holidify.com/images/bgImages/SHIMLA.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+      .place-9 {
+        background-image: url(https://www.holidify.com/images/cmsuploads/compressed/Wayanad_20180224231409.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+      .place-10 {
+        background-image: url(https://www.holidify.com/images/bgImages/RISHIKESH.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+      .place-11 {
+        background-image: url(https://www.holidify.com/images/bgImages/NAINITAL.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+      .place-12 {
+        background-image: url(https://www.holidify.com/images/tooltipImages/SIKKIM.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+
       section .para {
         font-size: 20px;
-        width: 800px;
+        max-width: 800px;
+
         text-align: center;
         text-align: justify;
         background-color: rgba(8, 3, 75, 0.652);
@@ -105,6 +159,7 @@
         align-items: center;
         justify-content: space-around;
         margin-top: 5px;
+        flex-wrap: wrap;
       }
       .known-for li {
         color: rgb(0, 0, 0);
@@ -118,17 +173,19 @@
         border-top: 3px solid rgb(255, 255, 255);
         border-bottom: 3px solid rgb(255, 255, 255);
       }
+      @media only screen and (max-width: 600px) {
+        h1 {
+          font-size: 50px;
+        }
+        section .para {
+          font-size: 15px;
+          margin: 10px 10px;
+        }
+      }
     </style>
   </head>
 
   <body>
-    <!--           https://www.holidify.com/images/bgImages/KASHMIR.jpg
-               https://www.holidify.com/images/bgImages/LADAKH.jpg
-               https://www.holidify.com/images/bgImages/MANALI.jpg
-               https://www.holidify.com/images/bgImages/KINNAUR.jpg
-               https://www.holidify.com/images/compressed/680.jpg
-  -->
-
     <section class="my_paralax">
       <section class="place-1">
         <h1>1. kashmir</h1>
@@ -213,6 +270,123 @@
           scorching heat. The season is perfect for strolling along the
           Victorian-era mansions, trekking through pine-clad valleys, and
           experiencing vibrant local festivals.
+        </p>
+      </section>
+
+      <section class="place-6">
+        <h1>6. Mussoorie</h1>
+        <p class="known">known For:</p>
+        <ul class="known-for">
+          <li>Mussoorie Mall Road</li>
+          <li>Kempty Falls</li>
+          <li>Camel's Back Road</li>
+        </ul>
+        <p class="para">
+          Mussoorie, fondly known as the 'Queen of the Hills', offers
+          breathtaking panoramic views of the Himalayan ranges and become a
+          picturesque escape with pleasant temperatures during the hot months.
+          The vibrant flora, bustling Mall Road, and cascading waterfalls create
+          a lively ambiance for both adventure enthsiasts and leisure seekers.
+        </p>
+      </section>
+
+      <section class="place-7">
+        <h1>7. Pahalgam</h1>
+        <p class="known">known For:</p>
+        <ul class="known-for">
+          <li>Aru Valley</li>
+          <li>Chandanwari</li>
+          <li>Baisaran</li>
+        </ul>
+        <p class="para">
+          Pahalgam, often termed as the 'Valley of Shepherds', transforms into a
+          verdant paradise during summers, with its meadows bursting into a riot
+          of colors and the Lidder River complementing the serene atmosphere.
+          The refreshing climate makes it a sought-after destination for those
+          looking to revel amidst natural beauty and engage in soft adventure
+          activities.
+        </p>
+      </section>
+
+      <section class="place-8">
+        <h1>8. Shimla</h1>
+        <p class="known">known For:</p>
+        <ul class="known-for">
+          <li>Mall Road, Shimla</li>
+          <li>The Ridge</li>
+          <li>Jakhu Temple</li>
+        </ul>
+        <p class="para">
+          Shimla, the erstwhile summer capital of British India, offers a
+          refreshing escape with its cool temperatures, lush green landscapes,
+          and colonial architecture. The town bustles with tourists, especially
+          on the Ridge and Mall Road, as they soak in panoramic views and
+          indulge in local experiences.
+        </p>
+      </section>
+
+      <section class="place-9">
+        <h1>9. Wayanad</h1>
+        <p class="known">known For:</p>
+        <ul class="known-for">
+          <li>Banasura Sagar Dam</li>
+          <li>Wayanad Wildlife Sanctuary</li>
+          <li>Chembra Peak</li>
+        </ul>
+        <p class="para">
+          Wayanad, set amidst the Western Ghats, presents a refreshing retreat
+          with its misty mornings, vast spice plantations, and vibrant wildlife.
+          The region bursts into a lush green tapestry in summers, making treks
+          and sightseeing an absolute delight.
+        </p>
+      </section>
+
+      <section class="place-10">
+        <h1>10. Rishikesh</h1>
+        <p class="known">known For:</p>
+        <ul class="known-for">
+          <li>Rafting in Rishikesh</li>
+          <li>Lakshman Jhula</li>
+          <li>Triveni Ghat</li>
+        </ul>
+        <p class="para">
+          Rishikesh, flanked by the Ganges and the majestic Himalayas, becomes a
+          hub for spiritual seekers and adventure enthusiasts alike during
+          summers. The refreshing river breeze coupled with the mellifluous
+          chants from temples creates a harmonious blend of tranquility and
+          thrill.
+        </p>
+      </section>
+
+      <section class="place-11">
+        <h1>11. Nainital</h1>
+        <p class="known">known For:</p>
+        <ul class="known-for">
+          <li>Naini Lake</li>
+          <li>Snow View Point</li>
+          <li>Mall Road Nainital</li>
+        </ul>
+        <p class="para">
+          Nestled around the emerald Naini Lake, Nainital offers a refreshing
+          summer retreat with its cool climate, panoramic views, and vibrant
+          flora. Boating, walking along scenic paths, or merely reveling in its
+          colonial charm, the town presents a picturesque summer escape.
+        </p>
+      </section>
+
+      <section class="place-12">
+        <h1>12. Sikkim</h1>
+        <p class="known">known For:</p>
+        <ul class="known-for">
+          <li>Gurudongmar Lake</li>
+          <li>Yumthang Valley</li>
+        </ul>
+        <p class="para">
+          Nestled in the lap of the Eastern Himalayas, Sikkim is a captivating
+          state that offers a mesmerizing blend of breathtaking landscapes, rich
+          culture, and spiritual tranquility highlighted by the dramatic
+          contouring of the scenery from thick woodlands to colourful meadows
+          and panoramic views of the snowcapped mountains.
         </p>
       </section>
     </section>
